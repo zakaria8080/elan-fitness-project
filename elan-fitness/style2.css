@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pied-de-page {
+    padding: 48px 0 32px;
+    background-color: #0F1B2D;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.pied-haut {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo-clair {
+    color: #FFFFFF;
+}
+
+.slogan {
+    margin-top: 8px;
+    font-size: 14px;
+    font-style: italic;
+    color: #CBD5E1;
+}
+
+.menu-pied {
+    gap: 24px;
+}
+
+.menu-pied a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #E2E8F0;
+}
+
+.pied-bas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-size: 13px;
+    color: #94A3B8;
+}
+form{
+    border: solid 2px red;
+    margin-bottom: 50px;
+    text-align: center;
+}
+textarea{
+    border : solid 1px red;
+}
+label {
+    display: block;
+    margin: 10px 30px;
+}
+
+textarea,
+input {
+    margin: 10px 0 10px 0;
+    border: solid 2px black;
+    text-align: center;
+}
+
+button {
+    margin-left: 7.5%;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+}
