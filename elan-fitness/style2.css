@@ -56,10 +56,14 @@ html {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     border: orange solid;
     box-shadow: 7px 7px 7px 7px;
     border-radius: 30px;
     width: 50%;
+    max-width: 50%;
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 25%;
@@ -123,20 +127,16 @@ input {
 }
 
 form button {
-    position: fixed;
     display: block;
-    left: 250px;
     margin-bottom: 10px;
     padding: 7px 7px 7px 7px;
     background-color: orange;
-    transition: background-color 0.5s;
     border: solid 1px orange;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     font-size: 16.5px;
     color: white;
-    position: relative;
-    right: 20px;
+    margin: 0 auto 10px;
     width: 125px;
     cursor: pointer;
     transition: 1s ease-in;
@@ -224,7 +224,8 @@ textarea:focus {
     }
 
     #Envoyer {
-        display: flex;
-        justify-content: center;
+        position: relative;
+        left: 130px;
+        margin-left: 0;
     }
 }
