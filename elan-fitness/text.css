@@ -1,0 +1,17 @@
+.parent{
+    background-color: brown;
+    height: 40px;
+    width: 50px;
+
+}
+.parent one{
+    background-color: blue;
+    height: 20px;
+    width: 30px;
+}
+.parent {
+ position: relative;
+
+}
+
+
