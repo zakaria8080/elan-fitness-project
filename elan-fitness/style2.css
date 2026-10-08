@@ -222,10 +222,4 @@ textarea:focus {
     input:hover {
         width: 175px;
     }
-
-    #Envoyer {
-        position: relative;
-        left: 130px;
-        margin-left: 0;
-    }
 }
