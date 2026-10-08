@@ -66,28 +66,36 @@ form {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: linear-gradient(rgb(232, 201, 189) 0% 50%, rgb(228, 188, 115));
+    background-image: linear-gradient(rgb(232, 201, 189, 1) 0% 50%, rgb(228, 188, 115, 0.5));
 }
 
 
 form textarea {
-    display: block;
-    position: relative;
-    left: 25%;
     margin-bottom: 20px;
     padding: 7px 7px 7px 7px;
     width: 300px;
     height: 150px;
     color: orange;
     font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: ease-in 1s;
 }
 
+textarea:hover {
+    width: 400px;
+}
 input {
     padding: 5px 5px 5px 5px;
     color: orange;
     font-family: 'Courier New', Courier, monospace;
     width: 250px;
     height: 40px;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+input:hover {
+    width: 300px;
 }
 
 h2 {
@@ -114,7 +122,8 @@ input {
 }
 
 form button {
-    margin-left: 5%;
+    display: block;
+    margin-left: 265px;
     margin-bottom: 10px;
     padding: 7px 7px 7px 7px;
     background-color: orange;
@@ -127,6 +136,8 @@ form button {
     position: relative;
     right: 20px;
     width: 125px;
+    cursor: pointer;
+    transition: 1s ease-in;
 }
 
 button:hover {
@@ -146,12 +157,44 @@ textarea:focus {
     margin-top: 10px;
     margin-right: 20px;
 }
+
 .fa-brands {
     font-size: 25px;
     margin-left: 8px;
-    border: solid 1px rgb(187, 143, 108);
     width: 40px;
     height: 40px;
     padding-top: 10px;
     border-radius: 20px;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: palevioletred;
+}
+
+.fa-youtube:hover {
+    background-color: red;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background-color: blue;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background-color: rgb(226, 76, 101);
+    color: white;
+}
+.logo img{
+    width: 150px;
 }
