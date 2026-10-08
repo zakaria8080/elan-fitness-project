@@ -84,6 +84,7 @@ form textarea {
 textarea:hover {
     width: 400px;
 }
+
 input {
     padding: 5px 5px 5px 5px;
     color: orange;
@@ -122,8 +123,9 @@ input {
 }
 
 form button {
+    position: fixed;
     display: block;
-    margin-left: 265px;
+    left: 250px;
     margin-bottom: 10px;
     padding: 7px 7px 7px 7px;
     background-color: orange;
@@ -195,6 +197,34 @@ textarea:focus {
     background-color: rgb(226, 76, 101);
     color: white;
 }
-.logo img{
+
+.logo img {
     width: 150px;
+}
+
+@media (max-width : 767px) {
+    form textarea {
+        width: 150px;
+        cursor: pointer;
+        transition: 1s ease-in;
+    }
+
+    form textarea:hover {
+        width: 200px;
+    }
+
+    input {
+        width: 125px;
+        cursor: pointer;
+        transition: 1s ease-in;
+    }
+
+    input:hover {
+        width: 175px;
+    }
+
+    #Envoyer {
+        display: flex;
+        justify-content: center;
+    }
 }
