@@ -25,7 +25,11 @@
         <div class="conteneur en-tete-contenu">
             <a href="index.html" class="logo"><img
                     src="img/Gemini_Generated_Image_91cil91cil91cil9-removebg-preview.png" alt="image"></a>
-
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             <nav aria-label="Navigation principale">
                 <ul class="menu">
                     <li><a href="index.html">Accueil</a></li>
@@ -36,57 +40,66 @@
             </nav>
         </div>
     </header>
-</body>
-<form>
-    <h2>Contact Us</h2>
-    <div class="name">
-        <label>
-            Type Your Name
-        </label>
-        <input type="text" name="nl" id="zika" placeholder="nom" required>
-    </div>
-    <div class="email">
-        <label>
-            Type Your Email
-        </label>
-        <input type="email" name="nl" id="zika" placeholder="email" required>
-    </div>
-    <div>
-        <label for="zizo">Type Your Message</label>
-        <textarea name="problem" class="" placeholder="type" required></textarea>
-        <button type="submit" id="Envoyer">Envoyer</button>
-    </div>
-    <div id="last-div">
-        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-    </div>
-</form>
-<footer class="pied-de-page">
-    <div class="conteneur">
+    <form>
+        <h2>Contact Us</h2>
+        <div class="name">
+            <label>
+                Type Your Name
+            </label>
+            <input type="text" name="nl" id="zika" placeholder="nom" required>
+        </div>
+        <div class="email">
+            <label>
+                Type Your Email
+            </label>
+            <input type="email" name="nl" id="zika" placeholder="email" required>
+        </div>
+        <div>
+            <label for="zizo">Type Your Message</label>
+            <textarea name="problem" class="" placeholder="type" required></textarea>
+            <button type="submit" id="Envoyer">Envoyer</button>
+        </div>
+        <div id="last-div">
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </form>
+    <footer class="pied-de-page">
+        <div class="conteneur">
 
-        <div class="pied-haut">
-            <div>
-                      <a href="index.html" class="logo"><img src="img/Gemini_Generated_Image_91cil91cil91cil9-removebg-preview.png"alt="image"></a>
-                <p class="slogan">Ton énergie, ton rythme.</p>
+            <div class="pied-haut">
+                <div>
+                    <a href="index.html" class="logo"><img
+                            src="img/Gemini_Generated_Image_91cil91cil91cil9-removebg-preview.png" alt="image"></a>
+                    <p class="slogan">Ton énergie, ton rythme.</p>
+                </div>
+
+                <nav aria-label="Navigation du pied de page">
+                    <ul class="menu menu-pied">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index1.html">À propos</a></li>
+                        <li><a href="index2.html">Programmes</a></li>
+                        <li><a href="index3.html">Contact Us</a></li>
+                    </ul>
+                </nav>
             </div>
 
-            <nav aria-label="Navigation du pied de page">
-                <ul class="menu menu-pied">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="index1.html">À propos</a></li>
-                    <li><a href="index2.html">Programmes</a></li>
-                    <li><a href="index3.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+            <div class="pied-bas">
+                <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+                <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+            </div>
 
-        <div class="pied-bas">
-            <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
-            <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
         </div>
+    </footer>
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.querySelector('header nav');
 
-    </div>
-</footer>
+        mobileMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
 
 </html>

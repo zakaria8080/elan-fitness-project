@@ -318,6 +318,13 @@ textarea:focus {
         min-width: 150px;
     }
 
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
     .menu-toggle {
         display: flex;
         flex-direction: column;
@@ -347,9 +354,10 @@ textarea:focus {
     }
 
     header nav ul.nav-list {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
+        align-items: flex-end;
+        padding: 20px;
         gap: 15px;
         margin: 0;
         list-style: none;

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
     content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
+    <meta name="keywords" content="fitness">
   <title>Élan Fitness | Salle de sport à Casablanca</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +25,11 @@
     <div class="conteneur en-tete-contenu">
       <a href="index.html" class="logo"><img src="img/Gemini_Generated_Image_91cil91cil91cil9-removebg-preview.png"
           alt="image"></a>
-
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
       <nav aria-label="Navigation principale" class="nav">
         <ul class="menu">
           <a href="index.html" class="lien-actif">Accueil</a>
@@ -101,6 +106,14 @@
 
       </div>
     </footer>
+    <script>
+      const mobileMenu = document.getElementById('mobile-menu');
+      const navMenu = document.querySelector('header nav');
+
+      mobileMenu.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+      });
+    </script>
 </body>
 
 </html>
