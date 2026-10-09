@@ -3,14 +3,14 @@
 Refonte complète du site web d'Élan Fitness, passant d'un format one-er vers un site multipage moderne et responsive.
 
 
-## 🎨 Conception
+## Conception
 
 * Analyse de l'existant et définition de l'architecture multipage.
 * Création d'une identité visuelle adaptée (logo, charte graphique).
 * Sélection et organisation des contenus pour chaque page.
 
 
-## 💻 Développement
+## Développement
 
 * **Accueil : Présentation de la salle et des programmes.
 * **Programmes : Affichage détaillé des cours et des formules.
@@ -18,7 +18,7 @@ Refonte complète du site web d'Élan Fitness, passant d'un format one-er vers u
 * **Contactez-nous : Formulaire de message, coordonnées et plan d'accès.
 
 
-## 🛠️ Technologies
+## Technologies
 
 * HTML5
 * CSS3
